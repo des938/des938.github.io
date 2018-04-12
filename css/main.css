@@ -183,9 +183,8 @@ header {
   margin: 0 auto; }
   .portfolio-box .portfolio-box-caption {
     color: white;
-    opacity: 0;
     display: block;
-    background: rgba(49,182,196, 0.9);
+    background: rgba(49,182,196, 0);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -211,7 +210,7 @@ header {
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 18px; }
   .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1; }
+    background: rgba(49,182,196, .9); }
   @media (min-width: 768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
       font-size: 16px; }
